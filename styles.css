@@ -1,0 +1,48 @@
+:root {
+  --white: #fdfefe;
+  --blue: #3cddec;
+  --black: #000000;
+}
+
+.line {
+  background: var(--blue);
+  width: 60%;
+}
+
+#projects-section {
+  margin-top: 200px;
+}
+
+div > .line {
+  height: 10px;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+footer {
+  background: var(--black);
+}
+
+#images {
+  margin-bottom: 5px;
+}
+
+#footer {
+  margin-top: 10px;
+  margin-right: 6px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+#linkedin {
+  border-radius: 50px;
+}
+
+#footer-container {
+  height: 10rem;
+}

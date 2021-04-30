@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <header class="mb-md-2 mb-3">
+      <div class="container mt-2">
+        <ul
+          class="nav justify-content-md-end justify-content-center d-flex flex-md-row"
+        >
+          <li class="nav-item">
+            <a class="nav-link" href="#About">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills">Tecnologias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projecs">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="container">
+      <div class="container d-flex">
+        <h1 id="About">Sobre</h1>
+      </div>
+      <div class="container"><hr class="line" /></div>
+      <div class="container fluid">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          laborum sequi deserunt vel eveniet cumque in libero ex asperiores
+          facilis dolor aperiam hic atque est accusamus totam, repellendus
+          officia necessitatibus!
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container fluid d-flex justify-content-center mt-3">
+        <h1 id="Skills">Tecnologias</h1>
+      </div>
+
+      <div class="container fluid mt-3">
+        <div class="row mt-5 d-flex justify-content-center">
+          <div class="col-md-2 col-12 d-flex justify-content-center">
+            <img src="./assets/html-5.svg" width="100" alt="Html-5 Logo" />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 my-md-0"
+          >
+            <img src="./assets/css-3.svg" width="100" alt="CSS-3 Logo" />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 my-md-0"
+          >
+            <img
+              src="./assets/javascript-js-seeklogo.com.svg"
+              width="100"
+              alt="JavaScript Logo"
+            />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 my-md-0"
+          >
+            <img
+              src="./assets/typescript-seeklogo.com.svg"
+              width="100"
+              alt="Typescript Logo"
+            />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 my-md-0 mb-0 mb-md-0"
+          >
+            <img
+              src="./assets/react-seeklogo.com.svg"
+              width="100"
+              alt="React Logo"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-2"></div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center mb-3 mb-md-0"
+          >
+            <img src="./assets/nextjs-3.svg" width="100" alt="Next.js Logo" />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 my-md-0"
+          >
+            <img src="./assets/git-icon.svg" width="100" alt="Git Logo" />
+          </div>
+          <div
+            class="col-md-2 col-12 d-flex justify-content-center my-4 mb-5 my-md-0 mb-md-0"
+          >
+            <img
+              src="./assets/bootstrap-4.svg"
+              width="100"
+              alt="Bootstrap Logo"
+            />
+          </div>
+          <div class="col-md-2 col-12 d-flex justify-content-center">
+            <img src="./assets/sass-1.svg" width="100" alt="Sass Logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects-section">
+      <div class="container fluid d-flex justify-content-center mt-5">
+        <h1 id="Projecs">Projetos</h1>
+      </div>
+      <div class="container fluid d-flex justify-content-center mt-5">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 20rem">
+              <img
+                src="./assets/Podcastr.png"
+                class="card-img-top"
+                alt="Podcastr sample"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Podcastr</h5>
+                <p class="card-text">
+                  Aplicação de Podcasts utilizando Next.js, Context API, Hooks,
+                  Sass, React. Desenvolvida durante o evento de Programação NLW.
+                </p>
+                <a
+                  href="https://github.com/JulioDinizN/Podcastr"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Código</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card my-3 my-md-0" style="width: 20rem">
+              <img
+                src="./assets/RandomPerson.png"
+                class="card-img-top"
+                alt="Random Person sample"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Random Person Generator</h5>
+                <p class="card-text">
+                  Aplicação desenvolvida com o React fazendo uso de Hooks e
+                  também buscando dados de uma API com o Axios.
+                </p>
+                <a
+                  href="https://github.com/JulioDinizN/Random-Person-React-App"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Código</a
+                >
+                <a href="#" target="_blank" class="btn btn-primary"
+                  >Site do Projeto</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 20rem">
+              <img
+                src="./assets/Todo.png"
+                class="card-img-top"
+                alt="Todo sample"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Todo App</h5>
+                <p class="card-text">
+                  Uma Aplicação de gerenciamento de tarefas utilizando: React,
+                  Context API, Hooks e uso do LocalStorage do navegador.
+                </p>
+                <a
+                  href="https://github.com/JulioDinizN/Todo_React_App"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Código</a
+                >
+                <a href="#" target="_blank" class="btn btn-primary"
+                  >Site do Projeto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="Contact">
+      <div
+        id="footer-container"
+        class="container fluid d-flex justify-content-center align-items-center flex-column"
+      >
+        <div id="images">
+          <a href="" target="_blank"
+            ><img
+              style="filter: opacity(50%) grayscale(100%)"
+              id="linkedin"
+              src="./assets/linkedin-icon-2.svg"
+              width="50"
+              alt="Linkedin Logo"
+          /></a>
+          <a href="" target="_blank" class="mx-2"
+            ><img src="./assets/github-icon-1.svg" width="50" alt="Github Logo"
+          /></a>
+        </div>
+        <div>
+          <img
+            width="15"
+            height="15"
+            src="./assets/whatsapp-symbol.svg"
+            alt="whatsapp Logo"
+          />
+          <a class="footer-link" href="tel:+5561993724653">(61) 9372-4653</a>
+        </div>
+        <div>
+          <img
+            width="15"
+            height="15"
+            src="./assets/gmail-icon-2.svg"
+            alt="gmail Logo"
+          />
+          <a class="footer-link" href="mailto:juliocesardiniznogueira@gmail.com"
+            >juliocesardiniznogueira@gmail.com</a
+          >
+        </div>
+        <div>
+          <img
+            width="15"
+            height="15"
+            src="./assets/down-arrow.svg"
+            alt="Download icon"
+          />
+          <a class="footer-link" href="./assets/" download
+            >Currículo disponível para download</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
